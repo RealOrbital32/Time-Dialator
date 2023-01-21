@@ -1,0 +1,119 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Nominated Anomaly",
+	"starSystem": "O32.TimeDialator",
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 500,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 17500,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 119,
+			"g": 182,
+			"b": 209,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/nominatedanomaly_h.png",
+		"textureMap": "planets/assets/nominatedanomaly_present.png",
+		"minHeight": 400,
+		"maxHeight": 500,
+		"resolution": 612
+	},
+	"Props": {
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 200,
+				"minHeight": 415,
+				"maxHeight": 480
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"count": 3,
+				"minHeight": 415,
+				"maxHeight": 480
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/recorder2.xml",
+				"position": {
+					"x": 279.1773,
+					"y": -36.91504,
+					"z": -300.7815
+				}
+			}
+		],
+		"details": [
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"keepLoaded": true,
+				"position": {
+					"x": 279.1773,
+					"y": -36.91504,
+					"z": -300.7815
+				},
+				"rotation": {
+					"x": 338.9736,
+					"y": 26.4988,
+					"z": 264.8456
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Radio",
+				"name": "Recorder (2)",
+				"audio": "OW_PR_ProbeInAirSound",
+				"sourceRadius": 1,
+				"detectionRadius": 500,
+				"identificationRadius": 3,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 279.1773,
+					"y": -36.91504,
+					"z": -300.7815
+				},
+			}
+		]
+	},
+	"Atmosphere": {
+		"hasOxygen": true,
+		"atmosphereSunIntensity": 0.5,
+		"size": 550,
+		"fogSize": 550,
+		"fogDensity": 0.35,
+		"atmosphereTint": {
+			"r": 119,
+			"g": 182,
+			"b": 209,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 119,
+			"g": 182,
+			"b": 209,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 410
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Nnominatedanomaly.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/NAN.png",
+			"scale": 0.48
+		}
+	}
+}

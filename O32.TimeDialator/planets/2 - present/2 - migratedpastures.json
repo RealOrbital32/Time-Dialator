@@ -1,0 +1,93 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Migrated Pastures",
+	"starSystem": "O32.TimeDialator",
+	"Base": {
+		"surfaceGravity": 7,
+		"surfaceSize": 300,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 13000,
+		"trueAnomaly": 246,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 163,
+			"g": 158,
+			"b": 108,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/migratedpastures_h.png",
+		"textureMap": "planets/assets/migratedpastures_present.png",
+		"minHeight": 250,
+		"maxHeight": 300,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"size": 330,
+		"atmosphereTint": {
+			"r": 163,
+			"g": 158,
+			"b": 108,
+			"a": 255
+		}
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/recorder3.xml",
+				"position": {
+					"x": -33.28797,
+					"y": 255.632,
+					"z": 31.53909
+				}
+			}
+		],
+		"details": [
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"keepLoaded": true,
+				"position": {
+					"x": -33.28797,
+					"y": 255.632,
+					"z": 31.53909
+				},
+				"rotation": {
+					"x": 358.7736,
+					"y": 219.5168,
+					"z": 343.5158
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "EscapePod",
+				"name": "Recorder (3)",
+				"audio": "OW_PR_ProbeInAirSound",
+				"sourceRadius": 1,
+				"detectionRadius": 500,
+				"identificationRadius": 3,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": -33.28797,
+					"y": 255.632,
+					"z": 31.53909
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Nmigratedpastures.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/MPN.png",
+			"scale": 0.3
+		}
+	}
+}

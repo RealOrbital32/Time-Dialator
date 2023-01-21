@@ -1,0 +1,113 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Lunar Laughter",
+	"starSystem": "O32.TimeDialatorFuture",
+	"Base": {
+		"surfaceGravity": 7,
+		"surfaceSize": 300,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 2000,
+		"inclination": 8,
+		"eccentricity": 0.15,
+		"argumentOfPeriapsis": 230,
+		"primaryBody": "Nominated Anomaly",
+		"axialTilt": 23,
+		"isTidallyLocked": true,
+		"isMoon": true,
+		"siderealPeriod": 4,
+		"tint": {
+			"r": 100,
+			"g": 40,
+			"b": 90
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [
+					"LL_POOL"
+				],
+				"radius": 15,
+				"revealOn": "enter",
+				"position": {
+					"x": 146.5039,
+					"y": 134.1146,
+					"z": -25.93357
+				}
+			}
+		]
+	},
+	"Props": {
+		"signals": [
+			{
+				"frequency": "Radio",
+				"name": "Projection Pool",
+				"audio": "Ice_Cave_Amb_loop_v3_01",
+				"sourceRadius": 1,
+				"detectionRadius": 300,
+				"identificationRadius": 15,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 146.5039,
+					"y": 134.1146,
+					"z": -25.93357
+				}
+			}
+		],
+		"remotes": [
+			{
+				"id": "2",
+				"decalPath": "planets/assets/pool_bhs.png",
+				"stones": [
+					{
+						"rename": "bhs",
+						"position": {
+							"x": 146.6011,
+							"y": 133.6817,
+							"z": -25.23457
+						},
+						"rotation": {
+							"x": 45.67911,
+							"y": 122.8103,
+							"z": 16.92662
+						}
+					}
+				]
+			},
+			{
+				"id": "1",
+				"decalPath": "planets/assets/pool_ll.png",
+				"platform": {
+					"position": {
+						"x": 146.5039,
+						"y": 134.1146,
+						"z": -25.93357
+					},
+					"rotation": {
+						"x": 312.0914,
+						"y": 276.3435,
+						"z": 2.697067
+					}
+				}
+			}
+		]
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/lunarlaughter_h.png",
+		"textureMap": "planets/assets/lunarlaughter_t.png",
+		"minHeight": 200,
+		"maxHeight": 300,
+		"resolution": 612
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/lunarlaughter.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/LL.png",
+			"scale": 0.3
+		}
+	}
+}

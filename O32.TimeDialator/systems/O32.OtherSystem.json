@@ -1,0 +1,19 @@
+{
+	"canEnterViaWarpDrive": false,
+	"startHere": false,
+	"mapRestricted": true,
+	"Skybox": {
+		"destroyStarField": true,
+		"rightPath": "planets/assets/dark.png",
+		"leftPath": "planets/assets/dark.png",
+		"topPath": "planets/assets/dark.png",
+		"bottomPath": "planets/assets/dark.png",
+		"frontPath": "planets/assets/dark.png",
+		"backPath": "planets/assets/dark.png"
+	},
+	"vesselPosition": {
+		"x": 0,
+		"y": 0,
+		"z": 8000
+	}
+}

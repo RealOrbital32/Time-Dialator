@@ -1,0 +1,68 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>the Ernesto King</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>What are you doing here?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No, why are YOU here?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>scary anglerfish!</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>I don't know. Now, answer the qustion at hand.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I jumped in a tiny black hole built on the ancient remains of a sponge planet.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Did you find anything else interesting? If so, you should probably look back over it to see if you missed anything.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>It's a bit creepy how you know I've been looking around and solving stuff.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Don't ask. Just theorize. Talk to you later.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh... okay... it was kinda strange hearing that from someone like the Ernesto King.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>That's a bit rude.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

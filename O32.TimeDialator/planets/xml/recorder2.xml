@@ -1,0 +1,48 @@
+<DialogueTree>
+	<NameField>Danfand's Recording (2)</NameField>
+	
+	<DialogueNode>
+		<Name>MAIN</Name>
+		
+		<EntryCondition>DEFAULT</EntryCondition>
+
+		<RevealFacts>
+			<FactID>TERRA_LANDING</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>So, update, I've landed on the equator.</Page>
+			<Page>I'm currently running a test on atmospheric composition.</Page>
+			<Page>From the results thus far, the composition is similar to that of Timber Hearth.</Page>
+			<Page>The only difference is that it's more salty, but still breathable.</Page>
+			<Page>*recorder shuts off unexpectedly*</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>REACTIVATE RECORDER</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+	<DialogueNode>
+		<Name>1</Name>
+		
+		<RevealFacts>
+			<FactID>SPONGE_RUMOR</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>*static*</Page>
+			<Page>-and I guess the only logical next step is to go to another planet. That spongy one looks interesting.</Page>
+			<Page>It's poles are oddly smooth in comparison to the area around the equator.</Page>
+			<Page>That being said, I might as well have a look at them.</Page>
+			<Page>Oh! Also! Follow the distress beacon frequency, even though I won't be in any distress. Hopefully.</Page>
+			<Page>I'll just set this thing right here...</Page>
+			<Page>*sound of rocks touching the recorder*</Page>
+			<Page>*rocket liftoff*</Page>
+		</Dialogue>
+		
+	</DialogueNode>
+</DialogueTree>

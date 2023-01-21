@@ -1,0 +1,47 @@
+<DialogueTree>
+	<NameField>Danfand's Recording (3)</NameField>
+	
+	<DialogueNode>
+		<Name>MAIN</Name>
+		
+		<EntryCondition>DEFAULT</EntryCondition>
+
+		<RevealFacts>
+			<FactID>SPONGE_LANDING</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>Ah! I forgot to start recording!</Page>
+			<Page>Okay, here's the break:</Page>
+			<Page>I've done a surface sample and a composition survey.</Page>
+			<Page>What I've found is-</Page>
+			<Page>*recorder shuts off unexpectedly*</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>REACTIVATE RECORDER</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+	<DialogueNode>
+		<Name>1</Name>
+		
+		<RevealFacts>
+			<FactID>REGULARITY_RUMOR</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>*static*</Page>
+			<Page>-the planet is made up of a suprising amount of carbon.</Page>
+			<Page>Almost as if there's life here somewhere, but there isn't.</Page>
+			<Page>Actually, that begs the question, how exactly is light being emitted from that black hole?</Page>
+			<Page>Maybe I should examine it closer, maybe go inside. Light can't just come from nowhere.</Page>
+			<Page>I'll radio the results back to Timber Hearth if I make it out ali-</Page>
+			<Page>*audio cuts out*</Page>
+		</Dialogue>
+		
+	</DialogueNode>
+</DialogueTree>

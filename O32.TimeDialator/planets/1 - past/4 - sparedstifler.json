@@ -1,0 +1,140 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spared Stifler",
+	"starSystem": "O32.TimeDialatorPast",
+	"Base": {
+		"surfaceGravity": 6,
+		"surfaceSize": 120,
+		"hasMapMarker": true,
+		"ambientLight": 0.5,
+		"hasCometTail": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 18000,
+		"inclination": 13,
+		"axialTilt": 3,
+		"trueAnomaly": 184.5,
+		"eccentricity": 0.5,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 74,
+			"g": 54,
+			"b": 112,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/sparedstifler_h.png",
+		"textureMap": "planets/assets/sparedstifler_t.png",
+		"minHeight": 90,
+		"maxHeight": 120,
+		"resolution": 612
+	},
+	"Sand": {
+		"size": 92,
+		"tint": {
+			"r": 74,
+			"g": 54,
+			"b": 112,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [
+					"SS_WALL",
+					"SS_POOL"
+				],
+				"radius": 25,
+				"revealOn": "enter",
+				"position": {
+					"x": 79.31206,
+					"y": -7.291977,
+					"z": 46.0481
+				}
+			}
+		]
+	},
+	"Props": {
+		"remotes": [
+			{
+				"id": "2",
+				"decalPath": "planets/assets/pool_sfp.png",
+				"stones": [
+					{
+						"rename": "bhs",
+						"position": {
+							"x": 80.2378,
+							"y": -14.32574,
+							"z": 43.40887
+						},
+						"rotation": {
+							"x": 304.8857,
+							"y": 138.8157,
+							"z": 105.5724
+						}
+					}
+				]
+			},
+			{
+				"id": "1",
+				"decalPath": "planets/assets/pool_ss.png",
+				"platform": {
+					"position": {
+						"x": 80.42051,
+						"y": -15.23145,
+						"z": 42.6581
+					},
+					"rotation": {
+						"x": 12.77761,
+						"y": 329.9565,
+						"z": 260.3555
+					}
+				}
+			}
+		],
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"position": {
+					"x": 79.31206,
+					"y": -7.291977,
+					"z": 46.0481
+				},
+				"rotation": {
+					"x": 84.9968,
+					"y": 264.6012,
+					"z": 204.6573
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Radio",
+				"name": "Projection Pool (2)",
+				"audio": "Ice_Cave_Amb_loop_v3_01",
+				"sourceRadius": 1,
+				"detectionRadius": 300,
+				"identificationRadius": 15,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 79.31206,
+					"y": -7.291977,
+					"z": 46.0481
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/sparedstifler.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/SS.png",
+			"scale": 0.12
+		}
+	}
+}

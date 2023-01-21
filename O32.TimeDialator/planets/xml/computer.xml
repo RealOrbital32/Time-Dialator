@@ -1,0 +1,40 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>LOADING LOGS...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>DATA: BLACK HOLE LIFESPAN: 5 MORE YEARS</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DATA: LAST ACTIVATION: -29,437 YEARS AGO</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>DATA: LATEST ASTEROID DATA: LARGE ASTEROID DISRUPTING ORBITS OF INNER PLANET</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>DATA: POWER SUPPLY: LOW (8%)</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>COMPUTER_1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMPUTER_2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TRUTH_COMPUTER</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

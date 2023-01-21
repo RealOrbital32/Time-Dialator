@@ -1,0 +1,44 @@
+<DialogueTree>
+	<NameField>Danfand's Recording</NameField>
+	
+	<DialogueNode>
+		<Name>MAIN</Name>
+		
+		<EntryCondition>DEFAULT</EntryCondition>
+
+		<RevealFacts>
+			<FactID>TERRESTRIALPLANET</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>Is this thing recording?</Page>
+			<Page>Yeah, okay!</Page>
+			<Page>So, let's see...</Page>
+			<Page>That black hole is giving off light, which is strange.</Page>
+			<Page>What's weirder, however, is that there's a terrestrial planet!</Page>
+			<Page>*recorder shuts off unexpectedly*</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>REACTIVATE RECORDER</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+	<DialogueNode>
+		<Name>1</Name>
+		
+		<RevealFacts>
+			<FactID>TERRESTRIALPLANET_RUMOR</FactID>
+		</RevealFacts>
+		
+		<Dialogue>
+			<Page>*static*</Page>
+			<Page>For any future listeners, I'll be on the equator somewhere.</Page>
+			<Page>And uh, I'll make it emit a frequency on the Deep Space Radio.</Page>
+			<Page>*sound of a hard throw, then a whoosh*</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

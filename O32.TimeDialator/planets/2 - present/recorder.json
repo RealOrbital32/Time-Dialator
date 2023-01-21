@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Recorder",
+	"starSystem": "O32.TimeDialator",
+	"Base": {
+		"surfaceGravity": 0,
+		"surfaceSize": 1,
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 10000,
+		"dottedOrbitLine": true,
+		"trueAnomaly": 270,
+		"inclination": -45,
+		"primaryBody": "Regularity"
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"radius": 50
+			} 
+		]
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/recorder.xml"
+			}
+		],
+		"details": [
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"keepLoaded": true
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Traveler",
+				"name": "Recorder",
+				"audio": "OW_PR_ProbeInAirSound",
+				"sourceRadius": 1,
+				"detectionRadius": 500,
+				"identificationRadius": 3,
+				"onlyAudibleToScope": true
+			}
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Black Hole Station",
+	"starSystem": "O32.TimeDialatorFuture",
+	"Base": {
+		"surfaceGravity": 1,
+		"ambientLight": 1,
+		"surfaceSize": 100,
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 3900,
+		"trueAnomaly": 270,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": true,
+		"trackingOrbitLine": true,
+		"dottedOrbitLine": true,
+		"tint": {
+			"r": 25,
+			"g": 25,
+			"b": 25,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW_NM_SunStation",
+				"volume": 0.75,
+				"radius": 100
+			}
+		],
+		"zeroGravityVolumes": [
+			{
+				"radius": 100
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [
+					"BHS_DISCOVERY", "BHS_RUMOR"
+				],
+				"radius": 250,
+				"revealOn": "enter"
+			}
+		]
+	},
+	"Props": {
+		"nomaiText": [
+			{
+				"xmlFile": "planets/xml/computer.xml",
+				"type": "computer",
+				"position": {
+					"x": 12.09782,
+					"y": 2.826838,
+					"z": -8.033218
+				},
+				"rotation": {
+					"x": 2.633472E-05,
+					"y": 161.5131,
+					"z": 3.29668E-06
+				}
+			}
+		],
+		"remotes": [
+			{
+				"id": "2",
+				"decalPath": "planets/assets/pool_bhs.png",
+				"platform": {
+					"reveals": "LL_PROJECTION",
+					"position": {
+						"x": 23.67221,
+						"y": 2.926846,
+						"z": -10.36458
+					},
+					"rotation": {
+						"x": 1.440937E-05,
+						"y": 215.4052,
+						"z": -2.580145E-06
+					}
+				}
+			}
+		],
+		"details": [
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-bhs",
+				"path": "Assets/bhs.prefab",
+				"scale": 5
+			}
+		]
+	},
+	"Atmosphere": {
+		"size": 100,
+		"hasOxygen": true
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/bhs.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/bhs.png",
+			"scale": 0.1,
+			"offset": 1.25
+		}
+	}
+}

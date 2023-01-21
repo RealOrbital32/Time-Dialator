@@ -1,0 +1,111 @@
+{
+	"canEnterViaWarpDrive": true,
+	"startHere": false,
+	"initialReveal": [
+		"REGULARITY_DISCOVERY",
+		"NSCORCHEDFRONTPORCH_DISCOVERY",
+		"NMIGRATEDPASTURES_DISCOVERY",
+		"NNOMINATEDANOMALY_DISCOVERY",
+		"SIGNAL_RUMOR"
+	],
+	"curiosities": [
+		{
+			"id": "PRESENT_DESC",
+			"color": {
+				"r": 52,
+				"g": 149,
+				"b": 235,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 95,
+				"g": 171,
+				"b": 237,
+				"a": 255
+			}
+		},
+		{
+			"id": "STORY",
+			"color": {
+				"r": 235,
+				"g": 52,
+				"b": 100,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 245,
+				"g": 100,
+				"b": 139,
+				"a": 255
+			}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "REGULARITY_DESC",
+			"position": {
+				"x": -0,
+				"y": 0
+			}
+		},
+		{
+			"id": "NSCORCHEDFRONTPORCH_DESC",
+			"position": {
+				"x": -250,
+				"y": 0
+			}
+		},
+		{
+			"id": "NMIGRATEDPASTURES_DESC",
+			"position": {
+				"x": -400,
+				"y": 0
+			}
+		},
+		{
+			"id": "NNOMINATEDANOMALY_DESC",
+			"position": {
+				"x": 250,
+				"y": 0
+			}
+		},
+		{
+			"id": "STORY_START",
+			"position": {
+				"x": 0,
+				"y": 250
+			}
+		},
+		{
+			"id": "STORY_DANFAND",
+			"position": {
+				"x": 0,
+				"y": 450
+			}
+		},
+		{
+			"id": "STORY_PASTURES",
+			"position": {
+				"x": 0,
+				"y": 650
+			}
+		},
+		{
+			"id": "STORY_REGULARITY",
+			"position": {
+				"x": 0,
+				"y": 850
+			}
+		}
+	],
+	"coords": {
+		"x": [ 4, 2 ],
+		"y": [ 2, 4 ],
+		"z": [ 4, 2 ]
+	},
+	"vesselPosition": {
+		"x": 0,
+		"y": 0,
+		"z": 8000
+	}
+}

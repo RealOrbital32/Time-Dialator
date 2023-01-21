@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Nominated Anomaly",
+	"starSystem": "O32.TimeDialatorFuture",
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 500,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 17500,
+		"trueAnomaly": 246,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 95,
+			"g": 85,
+			"b": 135,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/nominatedanomaly_h.png",
+		"textureMap": "planets/assets/nominatedanomaly_future.png",
+		"minHeight": 400,
+		"maxHeight": 500,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"atmosphereSunIntensity": 0.1,
+		"size": 530,
+		"fogSize": 530,
+		"fogDensity": 1,
+		"atmosphereTint": {
+			"r": 95,
+			"g": 85,
+			"b": 135,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 95,
+			"g": 85,
+			"b": 135,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 410,
+		"tint": {
+			"r": 95,
+			"g": 85,
+			"b": 135
+		}
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Fnominatedanomaly.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/NAF.png",
+			"scale": 0.5
+		}
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Scorched Front Porch",
+	"starSystem": "O32.TimeDialatorPast",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 400,
+		"hasMapMarker": true,
+		"ambientLight": 1
+	},
+	"Orbit": {
+		"semiMajorAxis": 7500,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 2.5,
+		"tint": {
+			"r": 135,
+			"g": 97,
+			"b": 87,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/scorchedfrontporch_past_h.png",
+		"textureMap": "planets/assets/scorchedfrontporch_past.png",
+		"minHeight": 300,
+		"maxHeight": 400,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"size": 410,
+		"atmosphereTint": {
+			"r": 135,
+			"g": 97,
+			"b": 87,
+			"a": 255
+		}
+	},
+	"Lava": {
+		"size": 325
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [
+					"PSFP_SCROLL",
+					"SCROLL_RUMOR"
+				],
+				"radius": 10,
+				"revealOn": "enter",
+				"position": {
+					"x": -152.1524,
+					"y": -10.49275,
+					"z": 335.8881
+				}
+			}
+		]
+	},
+	"Props": {
+		"remotes": [
+			{
+				"id": "2",
+				"decalPath": "planets/assets/pool_sfp.png",
+				"platform": {
+					"reveals": "PSFP_RUMOR",
+					"position": {
+						"x": -152.1524,
+						"y": -10.49275,
+						"z": 335.8881
+					},
+					"rotation": {
+						"x": 281.3839,
+						"y": 57.28217,
+						"z": 98.2527
+					}
+				}
+			}
+		],
+		"nomaiText": [
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/scroll2.xml",
+				"seed": 53142,
+				"position": {
+					"x": -146.5781,
+					"y": -12.53233,
+					"z": 337.993
+				},
+				"rotation": {
+					"x": 65.79848,
+					"y": 241.8097,
+					"z": 264.687
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Pscorchedfrontporch.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/SFPP.png",
+			"offset": 2,
+			"scale": 0.4
+		}
+	}
+}

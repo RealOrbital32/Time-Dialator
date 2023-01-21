@@ -1,0 +1,52 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>SCROLL_MEANING</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>PMP_SETTLERS</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>NOMAI A: What is this place? We're really gonna do a challenge here?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>NOMAI B: Yeah, Mr. Wreath said that he would give $1,000,000,000 to the last clan standing.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>NOMAI A: By my guess, we're probaly gonna have to do a long challenge here. Spanning over generations.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>NOMAI B: That begs the question, how will Mr. Wreath give us the money if we're gonna die?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>NOMAI C: We'll do it for the generations to come! (loud obnoxious sounds)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>NOMAI B: Well, when the dropship's ready, we'll head to the middle planet. Ideally on the south pole, because there will always be light.</Text>
+	</TextBlock>
+</NomaiObject>

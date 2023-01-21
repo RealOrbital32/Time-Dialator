@@ -1,0 +1,88 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Migrated Pastures",
+	"starSystem": "O32.TimeDialatorPast",
+	"Base": {
+		"surfaceGravity": 7,
+		"surfaceSize": 300,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 13000,
+		"trueAnomaly": 123,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 135,
+			"g": 97,
+			"b": 87,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/migratedpastures_h.png",
+		"textureMap": "planets/assets/migratedpastures_past.png",
+		"minHeight": 250,
+		"maxHeight": 300,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"size": 310,
+		"atmosphereTint": {
+			"r": 135,
+			"g": 97,
+			"b": 87,
+			"a": 255
+		}
+	},
+	"Lava": {
+		"size": 255
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [
+					"PMP_WARP"
+				],
+				"radius": 30,
+				"revealOn": "enter",
+				"position": {
+					"x": 2.79466,
+					"y": -257.5034,
+					"z": -25.1308
+				}
+			}
+		]
+	},
+	"Props": {
+		"singularities": [
+			{
+				"targetStarSystem": "O32.OtherSystem",
+				"type": "blackHole",
+				"horizonRadius": 5,
+				"distortRadius": 8,
+				"position": {
+					"x": 2.79466,
+					"y": -257.5034,
+					"z": -25.1308
+				},
+				"rotation": {
+					"x": 354.798,
+					"y": 188.8967,
+					"z": 178.6488
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Pmigratedpastures.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/MPP.png",
+			"scale": 0.3
+		}
+	}
+}

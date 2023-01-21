@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Regularity",
+	"starSystem": "O32.TimeDialator",
+	"Base": {
+		"surfaceGravity": 48,
+		"surfaceSize": 3000,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"radius": 3700,
+				"entryNotification": {
+					"displayMessage": "I reccomend doing the story before you proceed any further.",
+					"duration": 5
+				}
+			}
+		]
+	},
+	"Props": {
+		"singularities": [
+			{
+				"type": "blackHole",
+				"horizonRadius": 3500,
+				"distortRadius": 4000,
+				"targetStarSystem": "O32.TimeDialatorFuture"
+			}
+		]
+	},
+	"Star": {
+		"size": 1,
+		"tint": {
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 255
+		},
+		"solarLuminosity": 0.25,
+		"lightRadius": 100000
+	},
+	"AsteroidBelt": {
+		"amount": 100,
+		"minSize": 15,
+		"maxSize": 35,
+		"innerRadius": 25000,
+		"outerRadius": 30000
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Nregularity.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/R.png",
+			"scale": 4
+		}
+	}
+}

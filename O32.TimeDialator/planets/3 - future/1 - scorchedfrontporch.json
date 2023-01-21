@@ -1,0 +1,145 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Scorched Front Porch",
+	"starSystem": "O32.TimeDialatorFuture",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 400,
+		"hasMapMarker": true,
+		"ambientLight": 1
+	},
+	"Orbit": {
+		"semiMajorAxis": 7500,
+		"trueAnomaly": 123,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 2.5,
+		"tint": {
+			"r": 79,
+			"g": 219,
+			"b": 158,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [
+					"WRECKAGE"
+				],
+				"revealOn": "enter",
+				"radius": 150,
+				"position": {
+					"x": 82.81982,
+					"y": -93.74579,
+					"z": -362.4659
+				}
+			},
+			{
+				"reveals": [
+					"SCROLL",
+					"SCROLL_RUMOR_1"
+				],
+				"revealOn": "enter",
+				"radius": 5,
+				"position": {
+					"x": 238.0839,
+					"y": -25.53094,
+					"z": -302.5983
+				}
+			}
+		]
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/scorchedfrontporch_future_h.png",
+		"textureMap": "planets/assets/scorchedfrontporch_future.png",
+		"minHeight": 300,
+		"maxHeight": 400,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"atmosphereSunIntensity": 0.05,
+		"size": 420,
+		"fogSize": 420,
+		"fogDensity": 0.1,
+		"atmosphereTint": {
+			"r": 79,
+			"g": 219,
+			"b": 158,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 79,
+			"g": 219,
+			"b": 158,
+			"a": 255
+		}
+	},
+	"Props": {
+		"signals": [
+			{
+				"frequency": "EscapePod",
+				"name": "High-Energy Location",
+				"audio": "OW_GD_ElectricBarrier_Idle_Loop",
+				"sourceRadius": 1,
+				"detectionRadius": 500,
+				"identificationRadius": 3,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 238.0839,
+					"y": -25.53094,
+					"z": -302.5983
+				}
+			}
+		],
+		"nomaiText": [
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/scroll.xml",
+				"seed": 53142,
+				"position": {
+					"x": 238.0839,
+					"y": -25.53094,
+					"z": -302.5983
+				},
+				"rotation": {
+					"x": 30.32142,
+					"y": 49.35969,
+					"z": 265.3452
+				}
+			}
+		],
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 175,
+				"minHeight": 330,
+				"maxHeight": 390
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"count": 3,
+				"minHeight": 330,
+				"maxHeight": 390
+			}
+		]
+	},
+	"Water": {
+		"size": 325,
+		"tint": {
+			"r": 79,
+			"g": 219,
+			"b": 158,
+			"a": 255
+		}
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Fscorchedfrontporch.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/SFPF.png",
+			"scale": 0.39
+		}
+	}
+}

@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>ANCIENT_CITY_UNCOVERED</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TRUTH_CITY</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>JESSE: This isn't good.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>JESSE: Our efforts to terraform this planet aren't doing so well. We've tried to flee from Nominated Anomaly, but that damned moon, well...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>THINPIN: What he wants to say is that Nominated Anomaly's temperature went up drastically, so we moved from there to Migrated Pastures and this planet. Or tried to, at least.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<LocationB />
+		<Text>KRABS: Come on! We need to flee! The atmospheric pressure is rapidly rising! Let's go back to Migrated Pastures!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>THINPIN: Yeah, that's a good idea. Let's go! Come on, Jesse!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>SANLUE: Huh? What's happening?</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,345 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Migrated Pastures",
+	"starSystem": "O32.TimeDialatorFuture",
+	"Base": {
+		"surfaceGravity": 7,
+		"surfaceSize": 300,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 13000,
+		"primaryBody": "Regularity",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 91,
+			"g": 135,
+			"b": 230,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": [
+					"CITY_EXPLORED"
+				],
+				"revealOn": "enter",
+				"radius": 50,
+				"position": {
+					"x": 41.3633,
+					"y": 74.48048,
+					"z": 287.6454
+				}
+			},
+			{
+				"reveals": [
+					"WALL",
+					"SCROLL_RUMOR_2"
+				],
+				"revealOn": "enter",
+				"radius": 6.5,
+				"position": {
+					"x": 88.83849,
+					"y": 67.68167,
+					"z": 278.4329
+				}
+			}
+		]
+	},
+	"Props": {
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 150,
+				"minHeight": 260,
+				"maxHeight": 290
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"count": 2,
+				"minHeight": 260,
+				"maxHeight": 290
+			}
+		],
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"position": {
+					"x": 88.83849,
+					"y": 67.68167,
+					"z": 278.4329
+				},
+				"rotation": {
+					"x": 75.71254,
+					"y": 44.29865,
+					"z": 26.1169
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-shop",
+				"path": "Assets/shop.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 125.3012,
+					"y": 46.77348,
+					"z": 268.5326
+				},
+				"rotation": {
+					"x": 5.022517,
+					"y": 295.5936,
+					"z": 278.7565
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-artroom",
+				"path": "Assets/artroom.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 114.3273,
+					"y": 45.63278,
+					"z": 273.5753
+				},
+				"rotation": {
+					"x": 9.010191,
+					"y": 294.3094,
+					"z": 278.8698
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-house1",
+				"path": "Assets/house1.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 97.89931,
+					"y": 41.48079,
+					"z": 280.5227
+				},
+				"rotation": {
+					"x": 13.10891,
+					"y": 290.8577,
+					"z": 277.8848
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-house2",
+				"path": "Assets/house2.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 74.36503,
+					"y": 35.76147,
+					"z": 288.4265
+				},
+				"rotation": {
+					"x": 10.03792,
+					"y": 285.9463,
+					"z": 277.2493
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-artroom",
+				"path": "Assets/artroom.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 86.02686,
+					"y": 38.93086,
+					"z": 284.75
+				},
+				"rotation": {
+					"x": 10.30409,
+					"y": 287.949,
+					"z": 277.8334
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-artroom",
+				"path": "Assets/artroom.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 60.48127,
+					"y": 33.0871,
+					"z": 291.9406
+				},
+				"rotation": {
+					"x": 10.37566,
+					"y": 283.55,
+					"z": 280.5875
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-house2",
+				"path": "Assets/house2.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 47.0192,
+					"y": 31.17194,
+					"z": 294.6441
+				},
+				"rotation": {
+					"x": 7.958719,
+					"y": 280.178,
+					"z": 276.0086
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-house1",
+				"path": "Assets/house1.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 35.186,
+					"y": 29.48747,
+					"z": 296.4659
+				},
+				"rotation": {
+					"x": 6.392437,
+					"y": 277.0978,
+					"z": 275.4253
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-artroom",
+				"path": "Assets/artroom.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 22.59605,
+					"y": 25.79522,
+					"z": 298.0274
+				},
+				"rotation": {
+					"x": 12.42902,
+					"y": 275.3649,
+					"z": 274.9301
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-shop",
+				"path": "Assets/shop.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 15.64342,
+					"y": 23.43027,
+					"z": 298.6719
+				},
+				"rotation": {
+					"x": 353.8985,
+					"y": 93.67013,
+					"z": 85.70853
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-factory",
+				"path": "Assets/factory.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 22.85683,
+					"y": 57.45215,
+					"z": 293.5515
+				},
+				"rotation": {
+					"x": 16.2478,
+					"y": 277.6645,
+					"z": 281.4453
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-launch",
+				"path": "Assets/launch.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": -6.994093,
+					"y": 30.15917,
+					"z": 298.3956
+				},
+				"rotation": {
+					"x": 344.8486,
+					"y": 89.99519,
+					"z": 83.89293
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-factory",
+				"path": "Assets/factory.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": 57.01009,
+					"y": 65.91525,
+					"z": 287.0558
+				},
+				"rotation": {
+					"x": 9.373955,
+					"y": 283.5373,
+					"z": 282.9767
+				}
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/prefabs/o32-launch",
+				"path": "Assets/launch.prefab",
+				"scale": 0.5,
+				"position": {
+					"x": -20.80014,
+					"y": 77.38484,
+					"z": 287.9953
+				},
+				"rotation": {
+					"x": 288.9735,
+					"y": 222.3875,
+					"z": 307.2239
+				}
+			}
+		]
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/migratedpastures_future_h.png",
+		"textureMap": "planets/assets/migratedpastures_future.png",
+		"minHeight": 250,
+		"maxHeight": 300,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"hasOxygen": true,
+		"atmosphereSunIntensity": 0.2,
+		"size": 330,
+		"fogSize": 330,
+		"fogDensity": 0.35,
+		"atmosphereTint": {
+			"r": 91,
+			"g": 135,
+			"b": 230,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 91,
+			"g": 135,
+			"b": 230,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 255
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/Fmigratedpastures.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/sprites/MPF.png",
+			"scale": 0.3
+		}
+	}
+}

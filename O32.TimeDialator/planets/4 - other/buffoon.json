@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Buffoon",
+	"starSystem": "O32.OtherSystem",
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 280,
+		"hasMapMarker": false,
+		"ambientLight": 2
+	},
+	"Orbit": {
+		"trueAnomaly": 165,
+		"semiMajorAxis": 7500,
+		"inclination": 45,
+		"primaryBody": "Goofy",
+		"isMoon": false,
+		"siderealPeriod": 5,
+		"axialTilt": -45
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/buffoon_h.png",
+		"textureMap": "planets/assets/buffoon_t.png",
+		"minHeight": 220,
+		"maxHeight": 280,
+		"resolution": 612
+	},
+	"Atmosphere": {
+		"atmosphereSunIntensity": 0.1,
+		"size": 300,
+		"fogSize": 300,
+		"fogDensity": 0.15,
+		"atmosphereTint": {
+			"r": 79,
+			"g": 102,
+			"b": 125,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 79,
+			"g": 102,
+			"b": 125,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 250,
+		"tint": {
+			"r": 79,
+			"g": 102,
+			"b": 125,
+			"a": 255
+		}
+	},
+	"Props": {
+		"signals": [
+			{
+				"frequency": "Traveler",
+				"name": "Sussy Amogus",
+				"audio": "planets/assets/amogus.mp3",
+				"sourceRadius": 280,
+				"detectionRadius": 300,
+				"identificationRadius": 0,
+				"onlyAudibleToScope": true
+			}
+		]
+	}
+}

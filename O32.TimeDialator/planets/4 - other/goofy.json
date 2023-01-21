@@ -1,0 +1,86 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Goofy",
+	"starSystem": "O32.OtherSystem",
+	"Spawn": {
+		"startWithSuit": true,
+		"playerSpawnPoint": {
+			"x": 0,
+			"y": 120,
+			"z": 0
+		},
+		"shipSpawnPoint": {
+			"x": 15000,
+			"y": 15000,
+			"z": 15000
+		}
+	},
+	"Base": {
+		"surfaceGravity": 24,
+		"surfaceSize": 150,
+		"hasMapMarker": false,
+		"gravityFallOff": "inverseSquared",
+		"centerOfSolarSystem": true,
+		"ambientLight": 2,
+		"hasCometTail": true,
+		"cometTailRotation": {
+			"x": 29.73542,
+			"y": 179.6996,
+			"z": 273.6793
+		}
+	},
+	"Orbit": {
+		"isStatic": true,
+		"siderealPeriod": 15,
+		"axialTilt": 90
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/goofy_h.png",
+		"textureMap": "planets/assets/goofy_t.png",
+		"minHeight": 100,
+		"maxHeight": 150,
+		"resolution": 612
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/ernestoking.xml",
+				"radius": 20,
+				"range": 20,
+				"position": {
+					"x": 0,
+					"y": -115,
+					"z": 0
+				}
+			}
+		],
+		"details": [
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": {
+					"x": 0,
+					"y": -115,
+					"z": 0
+				},
+				"rotation": {
+					"x": 180,
+					"y": 90,
+					"z": 0
+				},
+				"scale": 0.2,
+				"removeChildren": [
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+				"position": {
+					"x": 0,
+					"y": -115,
+					"z": 0
+				},
+				"scale": 0.2
+			}
+		]
+	}
+}

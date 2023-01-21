@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Orbital 32 (a.k.a. cigtu)",
+  "name": "Time Dialator",
+  "uniqueName": "O32.TimeDialator",
+  "version": "1.0.0",
+  "owmlVersion": "2.7.5",
+  "dependencies": [ "xen.NewHorizons" ]
+}

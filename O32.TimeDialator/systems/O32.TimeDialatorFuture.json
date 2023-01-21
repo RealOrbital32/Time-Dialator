@@ -1,0 +1,137 @@
+{
+	"canEnterViaWarpDrive": false,
+	"startHere": false,
+	"initialReveal": [
+		"FREGULARITY_DISCOVERY",
+		"FSCORCHEDFRONTPORCH_DISCOVERY",
+		"FMIGRATEDPASTURES_DISCOVERY",
+		"FNOMINATEDANOMALY_DISCOVERY",
+		"LUNARLAUGHTER_DISCOVERY",
+		"WRECKAGE_RUMOR",
+		"CITY_RUMOR",
+		"LL_RUMOR"
+	],
+	"curiosities": [
+		{
+			"id": "FUTURE_DESC",
+			"color": {
+				"r": 73,
+				"g": 209,
+				"b": 143,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 110,
+				"g": 240,
+				"b": 177,
+				"a": 255
+			}
+		},
+		{
+			"id": "STORY",
+			"color": {
+				"r": 235,
+				"g": 52,
+				"b": 100,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 245,
+				"g": 100,
+				"b": 139,
+				"a": 255
+			}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "FREGULARITY_DESC",
+			"position": {
+				"x": -0,
+				"y": 0
+			}
+		},
+		{
+			"id": "FSCORCHEDFRONTPORCH_DESC",
+			"position": {
+				"x": -250,
+				"y": 0
+			}
+		},
+		{
+			"id": "FMIGRATEDPASTURES_DESC",
+			"position": {
+				"x": -400,
+				"y": 0
+			}
+		},
+		{
+			"id": "FNOMINATEDANOMALY_DESC",
+			"position": {
+				"x": 250,
+				"y": 0
+			}
+		},
+		{
+			"id": "LUNARLAUGHTER_DESC",
+			"position": {
+				"x": 400,
+				"y": 0
+			}
+		},
+		{
+			"id": "BHS_DESC",
+			"position": {
+				"x": 0,
+				"y": 250
+			}
+		},
+		{
+			"id": "SFP_STORY",
+			"position": {
+				"x": -250,
+				"y": 200
+			}
+		},
+		{
+			"id": "SFP_SCROLL",
+			"position": {
+				"x": -325,
+				"y": 400
+			}
+		},
+		{
+			"id": "MP_STORY",
+			"position": {
+				"x": -400,
+				"y": 200
+			}
+		},
+		{
+			"id": "NA_STORY",
+			"position": {
+				"x": 0,
+				"y": 600
+			}
+		},
+		{
+			"id": "LL_STORY",
+			"position": {
+				"x": 325,
+				"y": 200
+			}
+		},
+		{
+			"id": "BHS_STORY",
+			"position": {
+				"x": 325,
+				"y": 400
+			}
+		}
+	],
+	"vesselPosition": {
+		"x": 0,
+		"y": 0,
+		"z": 8000
+	}
+}
