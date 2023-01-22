@@ -42,6 +42,15 @@
 		"size": 255
 	},
 	"Volumes": {
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "You shall enter with yourself, and yoourself only.",
+					"duration": 5
+				},
+				"radius": 20
+			}
+		],
 		"revealVolumes": [
 			{
 				"reveals": [
@@ -58,12 +67,28 @@
 		]
 	},
 	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/prefabs/o32-box",
+				"path": "Assets/cover.prefab",
+				"position": {
+					"x": 2.79466,
+					"y": -257.5034,
+					"z": -25.1308
+				},
+				"rotation": {
+					"x": 354.798,
+					"y": 188.8967,
+					"z": 178.6488
+				}
+			}
+		],
 		"singularities": [
 			{
 				"targetStarSystem": "O32.OtherSystem",
 				"type": "blackHole",
-				"horizonRadius": 5,
-				"distortRadius": 8,
+				"horizonRadius": 2.5,
+				"distortRadius": 4,
 				"position": {
 					"x": 2.79466,
 					"y": -257.5034,
